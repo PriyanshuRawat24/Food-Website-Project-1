@@ -1,11 +1,11 @@
-* {
+html, body {
+  font-family: "Poppin", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-family: "Poppin", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
 }
 
 /* nav-section */
@@ -510,10 +510,16 @@ html {
 
 /* footer */
 
-/* Main container */
-.container-main-wrapper {
-  margin-top: 20px;
+.footer-wrapper {
+  margin-top: 10px;
 }
+
+/* social-media */
+
+.social-media-text-box i{
+  margin-top: 40px;
+}
+
 
 /* Contact heading styles */
 .contact-heading-box span {
@@ -673,11 +679,189 @@ html {
 }
 
 
-/* about-us */
+/* about */
+
+.about-info-wrapper {
+  margin-top: 60px;
+}
+
+.info-para-box {
+  margin-top: 20px;
+}
+
+.info-para-box h3{
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #001973;
+}
+
+.info-para-box p{
+  margin-top: 20px;
+}
+
+.info-logo-box {
+  width: 100%;
+  height: 100%;
+  background-image: url("./about.img/info-image.webp");
+  background-repeat: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-logo-box i{
+  font-size: 50px;
+  color:#007bff;
+}
+
+/* brand-section */
+
+.brand-wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+  background-color: whitesmoke;
+}
+
+.brand-img-box {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
 
 
 
+/* team-section */
 
+.our-lovely-team-wrapper {
+  margin-top: 60px;
+}
+
+.team-text-box {
+  padding: 30px;
+}
+
+.team-text-box h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #001973;
+}
+
+.team-text-box p{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.team-main-box {
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.725);
+  margin-bottom: 20px;
+}
+
+.team-inner-para-box {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.team-inner-para-box h5{
+  text-transform: capitalize;  
+}
+.team-inner-para-box h6{
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+
+
+/* contact */
+
+.contact-info-wrapper {
+  margin-top: 60px;
+}
+
+.contact-info-main-box {
+  border: 1px solid black;
+}
+
+.contact-info-logo-box {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-info-logo-box i{
+  color: #001973;
+}
+
+.contact-info-text-box {
+  margin-top: 10px;
+}
+
+.contact-info-text-box h4{
+  text-transform: capitalize;
+  text-align: center;
+  color: #001973;
+}
+
+.contact-info-text-box p{
+  text-transform: capitalize;
+  text-align: center;
+  color: #001973;
+}
+
+/* form-section */
+
+.form-wrapper {
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.form-head-box h5{
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #001973;
+}
+
+.form-control {
+  margin-top: 40px;
+}
+
+.btn-box {
+  margin-top: 35px;
+  padding: 10px;
+  color: white;
+  background-color: #007bff;
+}
+
+/* gallery */
+
+.gallery-wrapper {
+  margin-top: 60px;
+  padding: 30px;
+}
+
+.gallery-heading-box{
+  margin: 30px;
+}
+
+.gallery-heading-box h2{
+  text-align: center;
+  text-transform: capitalize;
+  color: #001973;
+  font-weight: 700;
+}
+
+.gallery-heading-box p{
+  text-align: center;
+}
+
+.gallery-image-box img{
+  padding: 8px;
+}
 
 
 
