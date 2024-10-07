@@ -17,6 +17,7 @@ html, body {
 
 .nav-link:hover {
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .navbar-brand {
@@ -259,8 +260,13 @@ html, body {
   background-blend-mode: overlay;
   background-attachment:fixed;
   color: white;
-  padding: 130px;
+  padding: 70px;
   margin-top: 30px;
+}
+
+.call-to-action-para p{
+  margin-top: 15px;
+  text-align: center;
 }
 
 .call-to-action-heading {
@@ -268,10 +274,6 @@ html, body {
   justify-content: center;
 }
 
-.call-to-action-para span{
-  display: flex;
-  justify-content: center;
-}
 
 .call-to-action-btn {
   display: flex;
@@ -345,27 +347,29 @@ html, body {
 .feature-image-box,
 .feature-image-box-1,
 .feature-image-box-2 {
-  width: 60%;
-  height: 60%;
-  margin-left: 6rem;
+  width: 90%;
+  height: 90%;
   margin-top: 60px;
 }
 
 .feature-text-box {
-  margin-top: 25px;
+  margin-top: 80px;
 }
 
 .feature-para-box {
-  margin-top: 10px;
   font-size: 15px;
   color: black;
+}
+
+.feature-para-box p {
+  margin-top: 20px;
 }
 
 /* Logo and Value Points */
 .feature-logo-para-section,
 .feature-logo-para-section-1,
 .feature-logo-para-section-2 {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 20px;
   font-weight: 100;
   color: black;
@@ -374,8 +378,7 @@ html, body {
 /* Second Feature Section */
 .second-feature-heading-section-1,
 .second-feature-heading-section-2 {
-  margin: 40px;
-  padding: 25px;
+  margin-top: 80px;
   color: #001973;
 }
 
@@ -827,14 +830,19 @@ html, body {
 }
 
 .form-control {
-  margin-top: 40px;
+  margin-top: 0px;
+}
+
+#inputAddress {
+  margin-top: 20px;
 }
 
 .btn-box {
-  margin-top: 35px;
+  margin-top: 25px;
   padding: 10px;
   color: white;
   background-color: #007bff;
+  text-transform: capitalize;
 }
 
 /* gallery */
@@ -864,9 +872,76 @@ html, body {
 }
 
 
+/* media quary */
 
 
+@media only screen and (max-width: 1200px) { }
 
+ @media only screen and (max-width: 991px) { }
 
+ @media only screen and (max-width: 767px) { 
+  .Home-wrapper {
+    text-align: center;
+  }
+  .search {
+    margin-left: 63px;
+  }
+  .btn btn-primary {
+    margin-right: 53px;
+  }
+  .service-heading-box p{
+    text-align: center;
+  }
+  .feature-para-box p{
+    margin-top: 30px;
+  }
+  .main-price-box-1 {
+    margin-top: 25px;
+  }
+  .price-heading-box p{
+    text-align: center;
+  }
+  .contact-heading-box p{
+    text-align: center;
+  }
 
+  .main-price-box {
+    margin-top: 25px;
+  }
+  .form-box {
+    margin-top: 35px;
+  }
 
+  /* about-page */
+
+  .info-logo-box {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  /* contact page */
+
+  .contact-info-main-box {
+    margin-top: 15px;
+  }
+  #inputPassword4 {
+    margin-top: 15px;
+  }
+  #inputAddress {
+    margin-top: 15px;
+  }
+  
+  }
+
+ @media only screen and (max-width: 600px) { 
+
+    table {
+        display: block;   
+        width: 100%;
+        overflow-x: auto;
+    }
+ }
+
+ @media only screen and (max-width: 575px){
+
+  }
