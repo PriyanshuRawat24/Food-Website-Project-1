@@ -9,28 +9,34 @@ It has <html> and </html> tags containing the entire webpage content.
 Inside the <html>, there's a <head> section containing meta information about the webpage and a <link> tag referencing an external stylesheet (style.css).
 Additional <link> tags are present to include Bootstrap CSS, jQuery, and Font Awesome libraries.
 The <body> section contains the visible content of the webpage.
+
 Navigation Bar:
 
 A navigation bar is created using a <nav> element with the class navbar myNavbar navbar-expand-lg and an ID navbar.
 It uses Bootstrap classes for responsiveness and styling.
 The navigation bar includes a logo (<h3>Logis</h3>), a toggle button for mobile menus, and links to other website sections (About, Gallery, Contact).
+
 Hero Banner:
 
 A hero banner section showcases a large image using a <div> with the class home-banner-wrapper.
 The image is displayed using an <img> tag with the source (src) set to img/banner.jpg.
+
 Feature Service Section:
 
 This section displays three service boxes with icons and descriptions.
 It uses a series of nested divs with various classes for layout and styling.
 Each service box uses Font Awesome icons (<i> tag) and paragraphs (<p>) for content.
+
 About Us Section:
 
 This section showcases information about the company using divs and paragraphs.
 It includes an image (<img>) and a section with logo icons and descriptions.
+
 Home Page Section:
 
 This section displays a title, paragraph, search form, and four statistic boxes.
 The search form uses Bootstrap classes for styling (form-control, btn btn-primary).
+
 Our Service Section:
 
 This section highlights services offered with a heading, description, and service card elements.
@@ -38,6 +44,7 @@ Service cards use divs and images to display service details.
 Call to Action Section:
 
 This section encourages users to take action with a heading, paragraph, and a call-to-action button.
+
 Feature Section:
 
 This section showcases a feature with a heading, paragraph, and an image.
