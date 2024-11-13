@@ -16,3 +16,12 @@ $('.owl-carousel').owlCarousel({
       }
   }
 });
+
+
+$(document).ready(function(){
+    $('.wish-click').click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('wishlisted');
+    })
+});
+  
